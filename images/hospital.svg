@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="buildingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#cbd5e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#94a3b8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#64748b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#475569;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f1f5f9" rx="8"/>
+  
+  <!-- Main building structure -->
+  <rect x="120" y="80" width="160" height="200" fill="url(#buildingGrad)" rx="4"/>
+  
+  <!-- Central tower with cross -->
+  <rect x="180" y="40" width="40" height="240" fill="url(#buildingGrad)" rx="4"/>
+  
+  <!-- Roof sections -->
+  <polygon points="120,80 200,40 280,80" fill="url(#roofGrad)"/>
+  <polygon points="180,40 200,20 220,40" fill="url(#roofGrad)"/>
+  
+  <!-- Medical cross on tower -->
+  <rect x="195" y="60" width="10" height="50" fill="#dc2626" rx="2"/>
+  <rect x="190" y="80" width="20" height="10" fill="#dc2626" rx="2"/>
+  
+  <!-- Windows left wing -->
+  <rect x="135" y="100" width="25" height="35" fill="#e2e8f0" rx="2"/>
+  <rect x="135" y="150" width="25" height="35" fill="#e2e8f0" rx="2"/>
+  <rect x="135" y="200" width="25" height="35" fill="#e2e8f0" rx="2"/>
+  
+  <!-- Windows right wing -->
+  <rect x="240" y="100" width="25" height="35" fill="#e2e8f0" rx="2"/>
+  <rect x="240" y="150" width="25" height="35" fill="#e2e8f0" rx="2"/>
+  <rect x="240" y="200" width="25" height="35" fill="#e2e8f0" rx="2"/>
+  
+  <!-- Main entrance -->
+  <rect x="185" y="240" width="30" height="40" fill="#475569" rx="4"/>
+  <rect x="192" y="250" width="16" height="30" fill="#1e293b" rx="2"/>
+  
+  <!-- Side wings -->
+  <rect x="80" y="120" width="40" height="160" fill="url(#buildingGrad)" rx="4"/>
+  <rect x="280" y="120" width="40" height="160" fill="url(#buildingGrad)" rx="4"/>
+  
+  <!-- Side wing windows -->
+  <rect x="88" y="140" width="20" height="25" fill="#e2e8f0" rx="2"/>
+  <rect x="88" y="180" width="20" height="25" fill="#e2e8f0" rx="2"/>
+  <rect x="88" y="220" width="20" height="25" fill="#e2e8f0" rx="2"/>
+  
+  <rect x="292" y="140" width="20" height="25" fill="#e2e8f0" rx="2"/>
+  <rect x="292" y="180" width="20" height="25" fill="#e2e8f0" rx="2"/>
+  <rect x="292" y="220" width="20" height="25" fill="#e2e8f0" rx="2"/>
+</svg>
+
